@@ -1,0 +1,163 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f5; /* Light gray background */
+    color: #333; /* Darker text color */
+}
+
+header {
+    background-color: #4CAF50; /* Green background for header */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow for header */
+}
+
+h1, h2 {
+    color: #333;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 1.8em;
+}
+
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600; /* Bold the navigation links */
+    font-size: 1.1em;
+}
+
+nav a:hover {
+    text-decoration: underline; /* Hover effect for nav links */
+}
+
+/* Sections */
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 900px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Work Experience List */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+ul img {
+    margin-right: 10px; /* Adds space between logo and text */
+    vertical-align: middle; /* Align logo with text */
+}
+
+/* Contact List */
+section#contact ul li a {
+    color: #4CAF50; /* Green links */
+}
+
+section#contact ul li a:hover {
+    color: #388E3C; /* Darker green on hover */
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Profile Picture */
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    border: 4px solid #4CAF50; /* Green border around profile picture */
+}
+
+/* Rutgers Business School Image */
+.school-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Hobbies Page Styling */
+.hobby-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Specific styling for the Lakers logo */
+.lakers-logo {
+    max-width: 200px; /* Smaller max width for Lakers logo */
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+section#hobbies h2 {
+    color: #4CAF50;
+    text-align: center;
+    font-size: 1.8em;
+}
+
+section#hobbies p {
+    text-align: center;
+    font-size: 1.1em;
+    margin-bottom: 30px;
+}
+
+/* Resume Embed Styling */
+embed {
+    border: 2px solid #4CAF50; /* Green border around resume PDF */
+    border-radius: 5px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2em;
+    }
+    h2 {
+        font-size: 1.5em;
+    }
+    nav a {
+        font-size: 1em;
+    }
+    .profile-pic {
+        width: 120px;
+        height: 120px;
+    }
+}
